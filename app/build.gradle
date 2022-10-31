@@ -15,6 +15,9 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    implementation platform("io.opentelemetry:opentelemetry-bom:1.19.0")
+    implementation('io.opentelemetry:opentelemetry-api')
 }
 
 application {
